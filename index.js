@@ -48,7 +48,7 @@ app.post("/save-product", (req, res) => {
             title: req.body.title,
             description: req.body.desc,
             price: req.body.price,
-            image_path: ""
+            image_path: req.body.imagePath
         }
     )
 
